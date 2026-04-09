@@ -1,0 +1,17 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Security camera illustration">
+  <defs>
+    <linearGradient id="cameraBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" rx="60" fill="url(#cameraBg)"/>
+  <rect x="180" y="220" width="440" height="160" rx="40" fill="#1f2937"/>
+  <path d="M200 260 L520 260 L620 340 L220 340 Z" fill="#0ea5e9" opacity="0.2"/>
+  <rect x="240" y="230" width="320" height="120" rx="30" fill="#e2e8f0"/>
+  <circle cx="420" cy="290" r="48" fill="#0f172a"/>
+  <circle cx="420" cy="290" r="24" fill="#60a5fa"/>
+  <path d="M520 350 L620 420 L580 450 L480 380 Z" fill="#c7d2fe"/>
+  <path d="M240 400 L320 440 L320 470 L240 430 Z" fill="#e2e8f0" opacity="0.3"/>
+  <text x="400" y="540" fill="#e2e8f0" font-size="52" font-family="Inter, sans-serif" text-anchor="middle" font-weight="700">Security</text>
+</svg>

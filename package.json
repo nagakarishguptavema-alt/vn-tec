@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "build:dev": "vite build --mode development",
+    "deploy:godaddy": "npm run build && rm -f dist.zip && cd dist && zip -r ../dist.zip .",
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run",

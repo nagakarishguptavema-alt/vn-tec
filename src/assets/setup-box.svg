@@ -1,0 +1,16 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Setup boxes illustration">
+  <defs>
+    <linearGradient id="boxBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" rx="60" fill="url(#boxBg)"/>
+  <rect x="180" y="190" width="440" height="240" rx="40" fill="#0f172a"/>
+  <rect x="220" y="230" width="360" height="180" rx="36" fill="#1e3a8a"/>
+  <rect x="250" y="260" width="300" height="120" rx="28" fill="#93c5fd"/>
+  <rect x="280" y="300" width="240" height="60" rx="20" fill="#1e40af"/>
+  <path d="M260 380 L540 380 L560 420 L240 420 Z" fill="#e2e8f0" opacity="0.16"/>
+  <rect x="300" y="430" width="200" height="24" rx="12" fill="#3b82f6"/>
+  <text x="400" y="560" fill="#e2e8f0" font-size="44" font-family="Inter, sans-serif" text-anchor="middle" font-weight="700">Setup Box</text>
+</svg>
