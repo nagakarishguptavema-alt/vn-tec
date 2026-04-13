@@ -25,99 +25,166 @@ const productImages = [
     src: esp32,
     title: "ESP32 Board",
     alt: "ESP32 development board hardware",
-    description: "A powerful, low-cost microcontroller with Wi-Fi and Bluetooth capabilities, perfect for IoT projects and embedded systems.",
-    features: ["Dual-core processor", "Wi-Fi 802.11 b/g/n", "Bluetooth 4.2", "40 GPIO pins", "Low power consumption"],
-    specifications: "240 MHz dual-core processor, 520 KB SRAM, 4 MB Flash, Operating voltage: 3.3V",
+    points: [
+      "We manufacture custom ESP32-based microcontroller boards with integrated Wi-Fi and Bluetooth capabilities",
+      "Optimized for IoT projects and embedded systems",
+      "Used in PPE detection systems for reliable connectivity and real-time processing",
+      "240 MHz dual-core processor, 520 KB SRAM, 4 MB Flash",
+      "Operating voltage: 3.3V, Manufactured with quality components"
+    ],
     category: "Microcontrollers"
   },
   {
     src: raspberryPi,
     title: "Raspberry Pi",
     alt: "Raspberry Pi single-board computer",
-    description: "A credit-card sized computer that can run Linux and is perfect for learning programming, building projects, and embedded applications.",
-    features: ["ARM processor", "GPIO pins", "USB ports", "HDMI output", "Linux compatible"],
-    specifications: "Broadcom BCM2711, Quad core Cortex-A72, 1GB-8GB RAM, MicroSD card slot",
+    points: [
+      "We assemble and customize Raspberry Pi single-board computers for various applications",
+      "Including surveillance, embedded systems, and IoT projects",
+      "Our pre-configured Raspberry Pi Zero 2 W units are optimized for security camera deployments",
+      "Used in forensic utilities, ensuring quick setup and reliable performance",
+      "Broadcom BCM2711, Quad core Cortex-A72, 512MB-8GB RAM",
+      "MicroSD card slot, 5V 2A Power Adapter included"
+    ],
     category: "Single-board Computers"
   },
   {
     src: gpioPins,
     title: "GPIO Pins",
     alt: "Electronic circuitry and pin headers",
-    description: "General Purpose Input/Output pins that allow microcontrollers and single-board computers to interface with external devices and sensors.",
-    features: ["Digital I/O", "Analog input", "PWM output", "I2C/SPI communication", "Interrupt capability"],
-    specifications: "3.3V/5V logic levels, Pull-up/down resistors, Multiple communication protocols",
+    points: [
+      "We manufacture custom GPIO pin interfaces for seamless integration",
+      "Compatible with our ESP32 and Raspberry Pi boards",
+      "Enables connections to sensors and external devices",
+      "Essential for building PPE detection systems and forensic tools",
+      "Supports embedded applications requiring precise input/output control",
+      "3.3V/5V logic levels, Pull-up/down resistors",
+      "Multiple communication protocols, Manufactured for reliability"
+    ],
     category: "Interfaces"
   },
   {
     src: securityCamera,
     title: "Security Camera",
     alt: "Security camera and surveillance hardware",
-    description: "High-resolution cameras with night vision, motion detection, and remote monitoring capabilities for comprehensive security solutions.",
-    features: ["1080p/4K resolution", "Night vision", "Motion detection", "Cloud storage", "Mobile app access"],
-    specifications: "Sony IMX sensor, H.265 compression, IR LEDs, Weatherproof IP66 rating",
+    points: [
+      "We manufacture complete security camera solutions",
+      "Assembled with Raspberry Pi Zero 2 W, 5MP OV5647 camera modules",
+      "NOIR option available for night vision applications",
+      "Includes IR LED boards and bullet-type CCTV housings",
+      "Designed for PPE detection, surveillance systems, and 24/7 monitoring",
+      "Features motion detection and remote access capabilities",
+      "Raspberry Pi Zero 2 W 512MB RAM, 5MP OV5647 Camera Module",
+      "15-pin to 22-pin CSI cable, 850nm IR LED Board",
+      "CCTV Bullet Housing, 16GB MicroSD Card, 5V 2A Power Adapter"
+    ],
     category: "Security Hardware"
   },
   {
     src: surveillanceSystem,
     title: "Surveillance System",
     alt: "Surveillance camera and monitoring setup",
-    description: "Complete surveillance solutions including multiple cameras, NVR/DVR systems, and monitoring software for 24/7 security coverage.",
-    features: ["Multi-camera support", "Real-time monitoring", "Video analytics", "Remote access", "Alert notifications"],
-    specifications: "Up to 16 channels, 4K resolution, H.265+, Smart motion tracking, Mobile apps",
+    points: [
+      "We build comprehensive surveillance systems",
+      "Integrating multiple security cameras, IoT gateways, and monitoring software",
+      "Manufactured using our custom camera modules and Raspberry Pi-based controllers",
+      "Provides real-time video analytics, alert notifications, and remote access",
+      "Used in applications like PPE detection and facility security",
+      "Up to 16 channels, 1080p resolution, H.265 compression",
+      "Smart motion tracking, Mobile apps, Custom firmware"
+    ],
     category: "Security Systems"
   },
   {
     src: laptopForensics,
     title: "Laptop Forensics",
     alt: "Laptop forensic utility and investigation services",
-    description: "Specialized tools and software for digital forensics, data recovery, and investigation of laptop and computer systems.",
-    features: ["Data recovery", "Evidence collection", "Chain of custody", "Report generation", "Encryption analysis"],
-    specifications: "Supports multiple file systems, Hardware write blockers, MD5/SHA hashing, Timeline analysis",
+    points: [
+      "Our laptop forensic utility is a specialized software tool we develop",
+      "Used for digital forensics, data recovery, and evidence collection",
+      "Works alongside our hardware products like ESP32 and Raspberry Pi",
+      "Enables comprehensive investigations including PPE detection data analysis",
+      "Supports chain of custody management",
+      "Supports multiple file systems, Hardware write blockers",
+      "MD5/SHA hashing, Timeline analysis, Compatible with ESP32/Raspberry Pi"
+    ],
     category: "Forensic Tools"
   },
   {
     src: embeddedSystem,
     title: "Embedded System",
     alt: "Embedded system board and custom electronics",
-    description: "Custom-designed embedded systems for specific applications, combining hardware and software for optimized performance.",
-    features: ["Custom PCB design", "Real-time processing", "Low power design", "Industrial grade", "Custom firmware"],
-    specifications: "ARM/Cortex processors, Custom sensors, Industrial temperature range, Real-time OS support",
+    points: [
+      "We design and manufacture custom embedded systems",
+      "Combining our ESP32 boards, Raspberry Pi computers, and GPIO interfaces",
+      "Optimized for specific applications like PPE detection and surveillance",
+      "Used in IoT projects with real-time processing capabilities",
+      "Industrial-grade reliability and performance",
+      "ARM/Cortex processors, Custom sensors",
+      "Industrial temperature range, Real-time OS support, Manufactured components"
+    ],
     category: "Embedded Systems"
   },
   {
     src: setupBox,
     title: "Set Top Box",
     alt: "Hardware set top boxes and installation kits",
-    description: "Pre-configured hardware kits and set top boxes that include all necessary components for quick deployment and installation.",
-    features: ["Pre-configured hardware", "Quick setup", "Documentation included", "Testing verified", "Warranty covered"],
-    specifications: "Complete BOM, Assembly instructions, Test procedures, Quality assurance, 1-year warranty",
+    points: [
+      "We manufacture pre-configured set top box kits",
+      "Including all necessary components for quick deployment",
+      "Features Raspberry Pi-based systems with camera modules",
+      "Includes power adapters and installation hardware",
+      "Perfect for surveillance setups and embedded applications",
+      "Raspberry Pi Zero 2 W, Camera Module, CSI Cable",
+      "IR LED Board, Housing, MicroSD Card, Power Adapter",
+      "Misc Cables and screws"
+    ],
     category: "Installation Kits"
   },
   {
     src: cameraModule,
     title: "Camera Module",
     alt: "Camera module and imaging hardware",
-    description: "Compact camera modules for embedded applications, providing high-quality imaging capabilities in small form factors.",
-    features: ["High resolution", "Compact size", "Multiple interfaces", "Auto focus", "Image processing"],
-    specifications: "8MP-64MP sensors, CSI/MIPI interface, Auto exposure, HDR support, Lens options available",
+    points: [
+      "We produce high-quality camera modules like the 5MP OV5647",
+      "NOIR options available for night vision applications",
+      "Manufactured with CSI interfaces and IR LED integration",
+      "Designed for use in security cameras and surveillance systems",
+      "Used in PPE detection setups and embedded applications",
+      "5MP OV5647 sensor, 15-pin to 22-pin CSI cable",
+      "850nm IR LED Board, Auto exposure, Manufactured for reliability"
+    ],
     category: "Imaging Hardware"
   },
   {
     src: iotGateway,
     title: "IoT Gateway",
     alt: "IoT gateway for connected devices",
-    description: "Intelligent gateways that connect IoT devices to the cloud, providing data processing, security, and management capabilities.",
-    features: ["Device management", "Data aggregation", "Edge computing", "Security protocols", "Cloud integration"],
-    specifications: "Multiple wireless protocols, Linux-based, RESTful APIs, MQTT support, Docker containers",
+    points: [
+      "We manufacture intelligent IoT gateways",
+      "Using Raspberry Pi and ESP32 platforms",
+      "Connects devices to cloud services with data processing capabilities",
+      "Includes security features for reliable operation",
+      "Essential for surveillance systems and PPE detection networks",
+      "Used in remote monitoring applications",
+      "Raspberry Pi Zero 2 W, ESP32 integration",
+      "Multiple wireless protocols, Linux-based, RESTful APIs, MQTT support"
+    ],
     category: "IoT Solutions"
   },
   {
     src: securityPanel,
     title: "Security Panel",
     alt: "Security monitoring panel and control system",
-    description: "Central control panels for security systems, providing monitoring, control, and automation of security devices and alarms.",
-    features: ["Zone monitoring", "Alarm management", "User access control", "Integration ready", "Remote monitoring"],
-    specifications: "16-256 zones, Touchscreen interface, GSM/GPRS backup, API integration, Backup battery",
+    points: [
+      "We manufacture central security control panels",
+      "Features zone monitoring, alarm management, and user access control",
+      "Built using embedded systems and GPIO interfaces",
+      "Designed for integration with surveillance cameras and IoT devices",
+      "Used in comprehensive security solutions",
+      "16-256 zones, Touchscreen interface, GSM/GPRS backup",
+      "API integration, Backup battery, Manufactured components"
+    ],
     category: "Control Systems"
   },
 ];
@@ -230,22 +297,11 @@ const ProductsSection = () => {
                       transition={{ duration: 0.5, delay: 0.2 }}
                     />
                   </div>
-                  <div>
-                    <h3 className="text-lg font-semibold mb-2">Description</h3>
-                    <p className="text-muted-foreground">{image.description}</p>
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold mb-2">Key Features</h3>
-                    <ul className="list-disc list-inside space-y-1 text-muted-foreground">
-                      {image.features.map((feature, index) => (
-                        <li key={index}>{feature}</li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-semibold mb-2">Specifications</h3>
-                    <p className="text-muted-foreground">{image.specifications}</p>
-                  </div>
+                  <ul className="list-disc list-inside space-y-1 text-muted-foreground">
+                    {image.points.map((point, index) => (
+                      <li key={index}>{point}</li>
+                    ))}
+                  </ul>
                   {image.title === "Laptop Forensics" && (
                     <div>
                       <h3 className="text-lg font-semibold mb-2">GitHub Repository</h3>
