@@ -23,45 +23,45 @@ import securityPanel from "@/assets/security-panel.svg";
 const productImages = [
   {
     src: esp32,
-    title: "ESP32 Board",
-    alt: "ESP32 development board hardware",
+    title: "Wireless Control Board",
+    alt: "Wireless control board with smart connectivity",
     points: [
-      "We manufacture custom ESP32-based microcontroller boards with integrated Wi-Fi and Bluetooth capabilities",
-      "Optimized for IoT projects and embedded systems",
+      "Smart wireless control board with integrated Wi-Fi and Bluetooth for remote connectivity",
+      "Perfect for smart devices, IoT projects, and automated systems",
       "Used in PPE detection systems for reliable connectivity and real-time processing",
-      "240 MHz dual-core processor, 520 KB SRAM, 4 MB Flash",
-      "Operating voltage: 3.3V, Manufactured with quality components"
+      "Powerful dual-core processor with 520 KB memory and 4 MB storage",
+      "Low power consumption at 3.3V, Manufactured with premium quality components"
     ],
-    category: "Microcontrollers"
+    category: "Smart Controllers"
   },
   {
     src: raspberryPi,
-    title: "Raspberry Pi",
-    alt: "Raspberry Pi single-board computer",
+    title: "Smart Mini Computer",
+    alt: "Smart mini computer for connected applications",
     points: [
-      "We assemble and customize Raspberry Pi single-board computers for various applications",
-      "Including surveillance, embedded systems, and IoT projects",
-      "Our pre-configured Raspberry Pi Zero 2 W units are optimized for security camera deployments",
-      "Used in forensic utilities, ensuring quick setup and reliable performance",
-      "Broadcom BCM2711, Quad core Cortex-A72, 512MB-8GB RAM",
-      "MicroSD card slot, 5V 2A Power Adapter included"
+      "Compact smart computer designed for surveillance, automation, and connected devices",
+      "Perfect for security cameras, smart home systems, and IoT solutions",
+      "Easy setup with pre-configured systems ready for immediate deployment",
+      "Reliable performance for continuous monitoring and real-time processing",
+      "Powerful quad-core processor with flexible memory options (512MB-8GB)",
+      "Includes storage options and power adapter for complete installation"
     ],
-    category: "Single-board Computers"
+    category: "Smart Computers"
   },
   {
     src: gpioPins,
-    title: "GPIO Pins",
-    alt: "Electronic circuitry and pin headers",
+    title: "Smart Connection Port",
+    alt: "Smart connection port for device integration",
     points: [
-      "We manufacture custom GPIO pin interfaces for seamless integration",
-      "Compatible with our ESP32 and Raspberry Pi boards",
-      "Enables connections to sensors and external devices",
-      "Essential for building PPE detection systems and forensic tools",
-      "Supports embedded applications requiring precise input/output control",
-      "3.3V/5V logic levels, Pull-up/down resistors",
-      "Multiple communication protocols, Manufactured for reliability"
+      "Smart connection interface for seamless integration with sensors and devices",
+      "Works perfectly with our Wireless Control Board and Smart Mini Computer",
+      "Plug-and-play connectivity for cameras, sensors, and external equipment",
+      "Essential for building complete security and automation systems",
+      "Precise control for real-time monitoring and data collection",
+      "Universal compatibility with multiple voltage levels and communication types",
+      "Industrial-grade reliability for continuous operation"
     ],
-    category: "Interfaces"
+    category: "Connection Interfaces"
   },
   {
     src: securityCamera,
@@ -69,12 +69,12 @@ const productImages = [
     alt: "Security camera and surveillance hardware",
     points: [
       "We manufacture complete security camera solutions",
-      "Assembled with Raspberry Pi Zero 2 W, 5MP OV5647 camera modules",
+      "Assembled with Smart Mini Computer, 5MP OV5647 camera modules",
       "NOIR option available for night vision applications",
       "Includes IR LED boards and bullet-type CCTV housings",
       "Designed for PPE detection, surveillance systems, and 24/7 monitoring",
       "Features motion detection and remote access capabilities",
-      "Raspberry Pi Zero 2 W 512MB RAM, 5MP OV5647 Camera Module",
+      "Smart Mini Computer 512MB RAM, 5MP OV5647 Camera Module",
       "15-pin to 22-pin CSI cable, 850nm IR LED Board",
       "CCTV Bullet Housing, 16GB MicroSD Card, 5V 2A Power Adapter"
     ],
@@ -87,7 +87,7 @@ const productImages = [
     points: [
       "We build comprehensive surveillance systems",
       "Integrating multiple security cameras, IoT gateways, and monitoring software",
-      "Manufactured using our custom camera modules and Raspberry Pi-based controllers",
+      "Manufactured using our custom camera modules and Smart Mini Computer-based controllers",
       "Provides real-time video analytics, alert notifications, and remote access",
       "Used in applications like PPE detection and facility security",
       "Up to 16 channels, 1080p resolution, H.265 compression",
@@ -102,11 +102,11 @@ const productImages = [
     points: [
       "Our laptop forensic utility is a specialized software tool we develop",
       "Used for digital forensics, data recovery, and evidence collection",
-      "Works alongside our hardware products like ESP32 and Raspberry Pi",
+      "Works alongside our hardware products like Wireless Control Board and Smart Mini Computer",
       "Enables comprehensive investigations including PPE detection data analysis",
       "Supports chain of custody management",
       "Supports multiple file systems, Hardware write blockers",
-      "MD5/SHA hashing, Timeline analysis, Compatible with ESP32/Raspberry Pi"
+      "MD5/SHA hashing, Timeline analysis, Compatible with Wireless Control Board and Smart Mini Computer"
     ],
     category: "Forensic Tools"
   },
@@ -116,7 +116,7 @@ const productImages = [
     alt: "Embedded system board and custom electronics",
     points: [
       "We design and manufacture custom embedded systems",
-      "Combining our ESP32 boards, Raspberry Pi computers, and GPIO interfaces",
+      "Combining our Wireless Control Boards, Smart Mini Computers, and Smart Connection Ports",
       "Optimized for specific applications like PPE detection and surveillance",
       "Used in IoT projects with real-time processing capabilities",
       "Industrial-grade reliability and performance",
@@ -132,10 +132,10 @@ const productImages = [
     points: [
       "We manufacture pre-configured set top box kits",
       "Including all necessary components for quick deployment",
-      "Features Raspberry Pi-based systems with camera modules",
+      "Features Smart Mini Computer-based systems with camera modules",
       "Includes power adapters and installation hardware",
       "Perfect for surveillance setups and embedded applications",
-      "Raspberry Pi Zero 2 W, Camera Module, CSI Cable",
+      "Smart Mini Computer, Camera Module, CSI Cable",
       "IR LED Board, Housing, MicroSD Card, Power Adapter",
       "Misc Cables and screws"
     ],
@@ -162,12 +162,12 @@ const productImages = [
     alt: "IoT gateway for connected devices",
     points: [
       "We manufacture intelligent IoT gateways",
-      "Using Raspberry Pi and ESP32 platforms",
+      "Using Smart Mini Computer and Wireless Control Board platforms",
       "Connects devices to cloud services with data processing capabilities",
       "Includes security features for reliable operation",
       "Essential for surveillance systems and PPE detection networks",
       "Used in remote monitoring applications",
-      "Raspberry Pi Zero 2 W, ESP32 integration",
+      "Raspberry Pi Zero 2 W, Wireless Control Board integration",
       "Multiple wireless protocols, Linux-based, RESTful APIs, MQTT support"
     ],
     category: "IoT Solutions"
@@ -179,7 +179,7 @@ const productImages = [
     points: [
       "We manufacture central security control panels",
       "Features zone monitoring, alarm management, and user access control",
-      "Built using embedded systems and GPIO interfaces",
+      "Built using embedded systems and Smart Connection Ports",
       "Designed for integration with surveillance cameras and IoT devices",
       "Used in comprehensive security solutions",
       "16-256 zones, Touchscreen interface, GSM/GPRS backup",
@@ -203,7 +203,7 @@ const products = [
   {
     icon: Cpu,
     title: "Hardware Products",
-    description: "Security hardware such as ESP32 and Raspberry Pi camera solutions, embedded sensors, and surveillance devices made for reliable monitoring.",
+    description: "Security hardware such as Wireless Control Boards and Smart Mini Computer camera solutions, embedded sensors, and surveillance devices made for reliable monitoring."
   },
   {
     icon: Layers,
@@ -253,7 +253,7 @@ const ProductsSection = () => {
             Explore the Devices Powering Your Solutions
           </h3>
           <p className="text-muted-foreground mt-4">
-            Explore embedded systems, Raspberry Pi and ESP32 boards, laptop forensic utilities, installation box kits, and security camera solutions that make our products tangible.
+            Explore embedded systems, Smart Mini Computers and Wireless Control Boards, laptop forensic utilities, installation box kits, Smart Connection Ports, and security camera solutions that make our products tangible.
           </p>
         </div>
 
